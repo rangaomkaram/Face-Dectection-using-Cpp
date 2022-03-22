@@ -1,5 +1,6 @@
 # Face-Dectection-using-Cpp
 Face detection with C++ progamming with Qtcreator
+# install opencv  C++ library using Cmake tool to work with project.
  we use the Haar classifier in a cascade to detect faces in an image
  ----------------------
 
