@@ -146,9 +146,10 @@ comment out the second cascade for the eyes.
 build and run again 
  -------------------------------
 change the loaded image name to people3.jpg
-comment out cv::resize(tmp, frame1, Size(640,480));
+comment out 
+```cv::resize(tmp, frame1, Size(640,480));```
 comment in the next line as a different resize mode:
-cv::resize(tmp, frame1,Size(),0.6,0.6,INTER_CUBIC);
+```cv::resize(tmp, frame1,Size(),0.6,0.6,INTER_CUBIC);```
 build and run again
 
 
